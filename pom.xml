@@ -20,6 +20,7 @@
 
     <properties>
         <github.repository>test-webdriver-downloader</github.repository>
+        <outputDirectory>Drivers</outputDirectory>
     </properties>
 
     <licenses>
@@ -62,6 +63,7 @@
                 <artifactId>webdriverextensions-maven-plugin</artifactId>
                 <executions>
                     <execution>
+                        <phase>initialize</phase>
                         <goals>
                             <goal>install-drivers</goal>
                         </goals>
@@ -71,10 +73,29 @@
                     <proxyId/>
                     <keepDownloadedWebdrivers/>
                     <pluginWorkingDirectory/>
-                    <installationDirectory>${project.basedir}/Drivers</installationDirectory>
+                    <installationDirectory>${project.basedir}/${outputDirectory}</installationDirectory>
                     <repositoryUrl>file:///${basedir}/driver-repository.json</repositoryUrl>
                     <drivers/>
                 </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target>
+                                <move file="${outputDirectory}/selenium-server.exe"
+                                      toFile="${outputDirectory}/selenium-server.jar"/>
+                            </target>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

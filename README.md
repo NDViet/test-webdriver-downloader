@@ -33,12 +33,12 @@ mvn clean install
 
 ```shell
 cd Drivers
-java -jar selenium-server hub
+java -jar selenium-server.jar hub
 ```
 
 ```shell
 cd Drivers
-java -jar selenium-server node --port 5555
+java -jar selenium-server.jar node --port 5555
 ```
 
 ## Reference
