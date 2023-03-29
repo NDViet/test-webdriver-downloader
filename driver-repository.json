@@ -63,6 +63,7 @@
       "platform": "linux",
       "bit": "64",
       "version": "111.0.5563.19",
+      "fileMatchInside": "^(?!LICENSE).*$",
       "url": "https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_linux64.zip"
     },
     {
@@ -315,7 +316,6 @@
       "platform": "linux",
       "bit": "64",
       "version": "111.0.1661.54",
-      "fileMatchInside": "\\w+.exe$",
       "url": "https://msedgedriver.azureedge.net/111.0.1661.54/edgedriver_linux64.zip"
     },
     {

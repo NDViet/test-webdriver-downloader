@@ -63,7 +63,8 @@
                 <artifactId>webdriverextensions-maven-plugin</artifactId>
                 <executions>
                     <execution>
-                        <phase>initialize</phase>
+                        <id>install-driver</id>
+                        <phase>install</phase>
                         <goals>
                             <goal>install-drivers</goal>
                         </goals>
@@ -84,6 +85,19 @@
                 <artifactId>maven-antrun-plugin</artifactId>
                 <executions>
                     <execution>
+                        <id>clean-outputDir</id>
+                        <phase>clean</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target>
+                                <delete dir="${outputDirectory}" quiet="true"/>
+                            </target>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>rename-for-windows</id>
                         <phase>verify</phase>
                         <goals>
                             <goal>run</goal>
@@ -91,7 +105,7 @@
                         <configuration>
                             <target>
                                 <move file="${outputDirectory}/selenium-server.exe"
-                                      toFile="${outputDirectory}/selenium-server.jar"/>
+                                      toFile="${outputDirectory}/selenium-server.jar" failonerror="false" quiet="true"/>
                             </target>
                         </configuration>
                     </execution>
