@@ -4,16 +4,16 @@
       "name": "selenium-server",
       "platform": "windows",
       "bit": "64",
-      "version": "4.8.2",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.8.0/selenium-server-4.8.2.jar",
+      "version": "4.10.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.10.0/selenium-server-4.10.0.jar",
       "customFileName": "selenium-server"
     },
     {
       "name": "selenium-server",
       "platform": "linux",
       "bit": "64",
-      "version": "4.8.2",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.8.0/selenium-server-4.8.2.jar",
+      "version": "4.10.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.10.0/selenium-server-4.10.0.jar",
       "customFileName": "selenium-server"
     },
     {
@@ -21,8 +21,8 @@
       "platform": "mac",
       "bit": "64",
       "arch": "amd64",
-      "version": "4.8.2",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.8.0/selenium-server-4.8.2.jar",
+      "version": "4.10.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.10.0/selenium-server-4.10.0.jar",
       "customFileName": "selenium-server"
     },
     {
@@ -30,41 +30,41 @@
       "platform": "mac",
       "bit": "64",
       "arch": "aarch64",
-      "version": "4.8.2",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.8.0/selenium-server-4.8.2.jar",
+      "version": "4.10.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.10.0/selenium-server-4.10.0.jar",
       "customFileName": "selenium-server"
     },
     {
       "name": "chromedriver",
       "platform": "windows",
       "bit": "32",
-      "version": "111.0.5563.19",
+      "version": "114.0.5735.90",
       "fileMatchInside": "\\w+.exe$",
-      "url": "https://chromedriver.storage.googleapis.com/111.0.5563.19/chromedriver_win32.zip"
+      "url": "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip"
     },
     {
       "name": "chromedriver",
       "platform": "mac",
       "bit": "64",
       "arch": "amd64",
-      "version": "111.0.5563.19",
-      "url": "https://chromedriver.storage.googleapis.com/111.0.5563.19/chromedriver_mac64.zip"
+      "version": "114.0.5735.90",
+      "url": "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_mac64.zip"
     },
     {
       "name": "chromedriver",
       "platform": "mac",
       "bit": "64",
       "arch": "aarch64",
-      "version": "111.0.5563.19",
-      "url": "https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_mac_arm64.zip"
+      "version": "114.0.5735.90",
+      "url": "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_mac_arm64.zip"
     },
     {
       "name": "chromedriver",
       "platform": "linux",
       "bit": "64",
-      "version": "111.0.5563.19",
+      "version": "114.0.5735.90",
       "fileMatchInside": "^(?!LICENSE).*$",
-      "url": "https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_linux64.zip"
+      "url": "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip"
     },
     {
       "name": "chromedriver",
@@ -223,15 +223,15 @@
       "name": "internetexplorerdriver",
       "platform": "windows",
       "bit": "32",
-      "version": "4.8.1",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.8.0/IEDriverServer_Win32_4.8.1.zip"
+      "version": "4.10.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.10.0/IEDriverServer_Win32_4.10.0.zip"
     },
     {
       "name": "internetexplorerdriver",
       "platform": "windows",
       "bit": "64",
-      "version": "4.8.1",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.8.0/IEDriverServer_Win32_4.8.1.zip"
+      "version": "4.10.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.10.0/IEDriverServer_Win32_4.10.0.zip"
     },
     {
       "name": "geckodriver",

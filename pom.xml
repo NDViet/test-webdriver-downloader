@@ -64,7 +64,7 @@
                 <executions>
                     <execution>
                         <id>install-driver</id>
-                        <phase>install</phase>
+                        <phase>generate-resources</phase>
                         <goals>
                             <goal>install-drivers</goal>
                         </goals>
@@ -98,7 +98,7 @@
                     </execution>
                     <execution>
                         <id>rename-for-windows</id>
-                        <phase>verify</phase>
+                        <phase>prepare-package</phase>
                         <goals>
                             <goal>run</goal>
                         </goals>
