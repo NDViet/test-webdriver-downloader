@@ -4,16 +4,16 @@
       "name": "selenium-server",
       "platform": "windows",
       "bit": "64",
-      "version": "4.10.0",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.10.0/selenium-server-4.10.0.jar",
+      "version": "4.13.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.13.0/selenium-server-4.13.0.jar",
       "customFileName": "selenium-server"
     },
     {
       "name": "selenium-server",
       "platform": "linux",
       "bit": "64",
-      "version": "4.10.0",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.10.0/selenium-server-4.10.0.jar",
+      "version": "4.13.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.13.0/selenium-server-4.13.0.jar",
       "customFileName": "selenium-server"
     },
     {
@@ -21,8 +21,8 @@
       "platform": "mac",
       "bit": "64",
       "arch": "amd64",
-      "version": "4.10.0",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.10.0/selenium-server-4.10.0.jar",
+      "version": "4.13.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.13.0/selenium-server-4.13.0.jar",
       "customFileName": "selenium-server"
     },
     {
@@ -30,8 +30,8 @@
       "platform": "mac",
       "bit": "64",
       "arch": "aarch64",
-      "version": "4.10.0",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.10.0/selenium-server-4.10.0.jar",
+      "version": "4.13.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.13.0/selenium-server-4.13.0.jar",
       "customFileName": "selenium-server"
     },
     {
@@ -223,15 +223,15 @@
       "name": "internetexplorerdriver",
       "platform": "windows",
       "bit": "32",
-      "version": "4.10.0",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.10.0/IEDriverServer_Win32_4.10.0.zip"
+      "version": "4.13.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.13.0/IEDriverServer_Win32_4.13.0.zip"
     },
     {
       "name": "internetexplorerdriver",
       "platform": "windows",
       "bit": "64",
-      "version": "4.10.0",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.10.0/IEDriverServer_Win32_4.10.0.zip"
+      "version": "4.13.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.13.0/IEDriverServer_Win32_4.13.0.zip"
     },
     {
       "name": "geckodriver",
